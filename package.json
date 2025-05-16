@@ -1,0 +1,19 @@
+{
+  "name": "contextum-cli",
+  "version": "0.1.0",
+  "description": "CLI tools for Contextum MCP server deployment",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "contextum": "./dist/index.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}
